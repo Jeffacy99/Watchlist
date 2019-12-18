@@ -9,6 +9,8 @@ def index():
 
     # Getting popular movie
     popular_movies = get_movies('popular')
+    upcoming_movie = get_movies('upcoming')
+    now_showing_movie = get_movies('now_playing')
     print(popular_movies)
 
     title = 'Home - Welcome to The best Movie Review Website Online'
